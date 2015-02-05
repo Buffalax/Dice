@@ -81,6 +81,9 @@
 
 		<div ng-show="winner">
 			And the winner is... <span style="color: coral"><b>{{winner.name}}</b></span>
+			<div>
+				<button type="button" class="btn btn-primary" ng-click="inGame = false; winner = null">New Game</button>
+			</div>
 		</div>
 	</body>
 </html>
